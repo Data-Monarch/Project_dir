@@ -1,0 +1,22 @@
+#PROMPT the user to enter their score and convert it to an integer
+user's score = shoud be an integer input
+
+# Check the input score of the user to see which range of grade it fallsinto
+ELSE score is not a number :
+     # display an error message if the user;s input is not a number
+     diplay *Invalid pin*
+ELSE :
+# check the input score of the user to see which range of grade it falls into
+    IF score is between 70 and 100 inclusive :
+       diplay 'A' #to the terminal screen
+    ELSE IF score is between 60 and 69 inclusive : #
+        display 'B'
+ELSE IF score is within 50 and 59 inclusive : #
+        display 'C'
+ELSE IF score is between 45 and 49 inclusive : #
+        display 'D'
+ELSE IF score is between 40 and 44 inclusive : #
+        display 'E'
+ELSE:
+     display'F'
+END
